@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="animated fadeInRight">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                <button id="submitBtn" type="submit" class="btn btn-primary btn-lg">Submit</button>
             </div>
         </form>
     </main>
@@ -252,7 +252,7 @@
 
                 <!-- "X" Button to close the modal -->
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
                     <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
                 </div>
 
@@ -264,7 +264,8 @@
 
                 <!-- Modal Footer (Close Button) -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" id="redo" class="btn btn-primary" data-dismiss="modal">Re-do</button>
                 </div>
             </div>
         </div>

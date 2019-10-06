@@ -10,13 +10,15 @@ module.exports = function(app) {
 
     app.post('/api/friends', function(req, res) {
         //get the new friend's scores to compare with friends in friendMatch array
-        const newFriendScores = req.body.scores;
-        const scoresArray = [];
-        const bestMatch = 0;
+        let newFriendScores = req.body.scores;
+        let scoresArray = [];
+        let bestMatch = 0;
+
+        // console.log("Req", req);
 
         //runs through friends in list array
         for (let i = 0; i < friendMatch.length; i++) {
-            const scoresDiff = 0;
+            let scoresDiff = 0;
             //run through scores to compare friends
             for (let j = 0; j < newFriendScores.length; j++) {
                 scoresDiff += (Math.abs(parseInt(friendMatch[i].scores[j]) - parseInt(newFriendScores[j])));
@@ -34,7 +36,7 @@ module.exports = function(app) {
         }
 
         //return bestMatch data
-        var bff4eva = friendMatch[bestMatch];
+        let bff4eva = friendMatch[bestMatch];
         res.json(bff4eva);
 
         //pushes new submission into the friendsList array

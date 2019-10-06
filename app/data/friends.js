@@ -1,6 +1,6 @@
 var friends = [{
         name: 'Naruto Uzumaki',
-        photo: 'assets/images/narutoUzumaki.png',
+        photo: '/assets/images/narutoUzumaki.png',
         scores: [
             '1',
             '5',
@@ -16,7 +16,7 @@ var friends = [{
     },
     {
         name: 'Sasuke Uchiha',
-        photo: 'assets/images/SasukeKishimoto.jpg',
+        photo: '/assets/images/SasukeKishimoto.jpg',
         scores: [
             '2',
             '4',
@@ -32,7 +32,7 @@ var friends = [{
     },
     {
         name: 'Sakura Haruno',
-        photo: 'assets/images/SakuraKishimoto.jpg',
+        photo: '/assets/images/SakuraKishimoto.jpg',
         scores: [
             '1',
             '3',
@@ -48,7 +48,7 @@ var friends = [{
     },
     {
         name: 'Kakashi Hatake',
-        photo: 'assets/images/Kakashikishimoto.jpg',
+        photo: '/assets/images/Kakashikishimoto.jpg',
         scores: [
             '2',
             '5',
@@ -64,7 +64,7 @@ var friends = [{
     },
     {
         name: 'Hinata Hyuga',
-        photo: 'assets/images/HinataHyuga.png',
+        photo: '/assets/images/HinataHyuga.png',
         scores: [
             '1',
             '1',
@@ -80,7 +80,7 @@ var friends = [{
     },
     {
         name: 'Kiba Inuzuka',
-        photo: 'assets/images/kibaInuzuka.jpg',
+        photo: '/assets/images/kibaInuzuka.png',
         scores: [
             '3',
             '1',
@@ -96,7 +96,7 @@ var friends = [{
     },
     {
         name: 'Akamaru',
-        photo: 'assets/images/akamaru.jpg',
+        photo: '/assets/images/akamaru.jpg',
         scores: [
             '3',
             '3',
@@ -112,7 +112,7 @@ var friends = [{
     },
     {
         name: 'Shino Aburame',
-        photo: 'assets/images/Shino_aburame.png',
+        photo: '/assets/images/Shino_aburame.png',
         scores: [
             '5',
             '1',
@@ -128,7 +128,7 @@ var friends = [{
     },
     {
         name: 'Kurenai Yuhi',
-        photo: 'assets/images/kurenaiYuhi.jpg',
+        photo: '/assets/images/kurenaiYuhi.png',
         scores: [
             '4',
             '4',
@@ -144,7 +144,7 @@ var friends = [{
     },
     {
         name: 'Choji Akimichi',
-        photo: 'assets/images/chojiAkimichi.jpg',
+        photo: '/assets/images/chojiAkimichi.jpg',
         scores: [
             '1',
             '1',
