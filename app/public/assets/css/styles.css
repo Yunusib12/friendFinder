@@ -1,0 +1,31 @@
+/* IMPORT
+========================== */
+
+
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+/* Animate CSS */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
+
+/* CUSTOM STYLING
+========================== */
+
+div.jumbotron {
+    background-image: url('../images/friendfinderbg.png');
+}
+
+div.headerText {
+    background-color: #ffffffc2;
+    border-radius: 15px;
+}
+
+div h1 {
+    font-family: 'Mansalva', cursive;
+}
+
+div button.btn-warning {
+    float: right;
+}

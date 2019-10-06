@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/99cd1dc6f4.js" crossorigin="anonymous"></script>
+    <title>Welcome to My Survey</title>
+</head>
+
+<body class="bg-light">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container headerText">
+            <h1 class="display-3"><strong>Friend Finder</strong></h1>
+            <p class="lead"><strong>Take a quick survey and find your new best friend</strong></p>
+        </div>
+    </div>
+
+    <main role="main" class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow-sm">
+            <div class="lh-100">
+                <h3 class="mb-0 text-white lh-100">Survey Questions</h3>
+            </div>
+            <div class="col-md-9">
+                <a href="/">
+                    <button type="button" class="btn btn-warning">
+                            <i class="fas fa-home"></i> Home
+                    </button>
+                </a>
+            </div>
+        </div>
+        <form id="surveyAnswers">
+            <div class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">About you</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <input id="name" type="text" class="form-control" placeholder="Your Name" aria-label="Your Name" aria-describedby="basic-addon2" required>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">Required</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <input id="photo" type="text" class="form-control" placeholder="Link to a Photo Image" aria-label="Link to a Photo Image" aria-describedby="basic-addon2" required>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon">Required</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="q1-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 1</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Naruto Shippuden is the greatest anime of all time.</label>
+                        </div>
+                        <select class="custom-select" id="q1" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q2-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 2</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect02">Naruto the strongest Ninja.</label>
+                        </div>
+                        <select class="custom-select" id="q2" required>
+                                <option selected disabled value="">Choose an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q3-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 3</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect03">Sasuke really love Sakura.</label>
+                        </div>
+                        <select class="custom-select" id="q3" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q4-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 4</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect04">The Aburame Clan has special ability with bugs /insects.</label>
+                        </div>
+                        <select class="custom-select" id="q4" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q5-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 5</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect02">Out of Jogo has the earth curse mark seal.</label>
+                        </div>
+                        <select class="custom-select" id="q5" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q6-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 6</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect06">In the akatsuki Itachi and kisame is the first team.</label>
+                        </div>
+                        <select class="custom-select" id="q6" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q7-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 7</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect07">Are Nagoto,konan,yahiko the Ame Orphan Trio trained by Jiraiya.</label>
+                        </div>
+                        <select class="custom-select" id="q7" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q8-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 8</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect08">Zabuza,suigetsu,kisame,raiga,choujuurou are the 7 swordmen of the mist.</label>
+                        </div>
+                        <select class="custom-select" id="q8" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q9-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 9</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect09">Pein summons the Demolisher Toad.</label>
+                        </div>
+                        <select class="custom-select" id="q9" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="q10-" class="my-3 p-3 bg-white rounded shadow-sm animated fadeInLeft">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Quesion 10</h6>
+                <div class="media text-muted pt-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect10">Worker ant,salamander,crow  are the names of the puppets kankuro summons.</label>
+                        </div>
+                        <select class="custom-select" id="q10" required>
+                            <option selected disabled value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="animated fadeInRight">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer mt-auto py-3 ">
+        <div class="container mb-5">
+            <a href="/">Home</a> | <a href="/api/friends">API Friends List</a> | @Friend Finder 2019
+        </div>
+    </footer>
+
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal Content-->
+            <div class="modal-content">
+
+                <!-- "X" Button to close the modal -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+                </div>
+
+                <!-- Modal Body (For Match Info) -->
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+                </div>
+
+                <!-- Modal Footer (Close Button) -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./assets/js/survey.js"></script>
+
+
+</body>
+
+</html>

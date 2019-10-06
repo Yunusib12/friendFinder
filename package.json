@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Find your mate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunusib12/friendFinder.git"
+  },
+  "keywords": [
+    "Find",
+    "a",
+    "Friend"
+  ],
+  "author": "Ibrahim Yunus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yunusib12/friendFinder/issues"
+  },
+  "homepage": "https://github.com/Yunusib12/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
