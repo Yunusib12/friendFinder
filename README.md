@@ -49,15 +49,15 @@ Welcome to Friend Finder! A Compatibility based application built with Node.js a
 
 **Home Page**:
 
-![Screenshot](./public/assets/images/home-page-friend-finder.jpg)
+![Screenshot](./app/public/assets/images/home-page-friend-finder.jpg)
 
 **Survey Page**: 
 
-![Screenshot](./public/assets/images/survey-page-friend-finder.jpg)
+![Screenshot](./app/public/assets/images/survey-page-friend-finder.jpg)
 
 **Result Page**:
 
-![Screenshot](./public/assets/images/result-page-friend-finder.jpg)
+![Screenshot](./app/public/assets/images/result-page-friend-finder.jpg)
 
 
 ### Technologies Used
