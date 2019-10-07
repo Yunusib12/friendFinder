@@ -1,4 +1,4 @@
-# Welcome To FRIEND FINDER
+# Welcome To Friend Finder
 
 ### Overview
 
